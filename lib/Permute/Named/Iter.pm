@@ -96,9 +96,9 @@ default, you have to import it explicitly.
 =head2 permute_named_iter(@list) => CODE
 
 Takes a list of key-specification pairs where the specifications can be single
-values or or references to arrays of possible values. It then returns an
-iterator (coderef) which you can call repeatedly to permute all
-key-specification combinations.
+values or references to arrays of possible values. It then returns an iterator
+(coderef) which you can call repeatedly to permute all key-specification
+combinations.
 
 The function expects the pairs as an even-sized list. Each specification can be
 a scalar or a reference to an array of possible values. The returned iterator
