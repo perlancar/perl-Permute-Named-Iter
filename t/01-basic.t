@@ -29,4 +29,11 @@ is_deeply(permute_named(bool=>0, x=>"foo"),
               { bool => 0, x => 'foo' },
           ]);
 
+is_deeply(permute_named(bool=>[0,1,2]),
+          [
+              { bool => 0 },
+              { bool => 1 },
+              { bool => 2 },
+          ]);
+
 done_testing;

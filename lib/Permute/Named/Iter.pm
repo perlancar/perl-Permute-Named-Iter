@@ -38,6 +38,10 @@ sub permute_named_iter {
       L1:
         while ($i >= 0) {
             if ($state->[$i] >= $#{$values[$i]}) {
+                if ($i == 0) {
+                    $state2 = 2;
+                    return undef;
+                }
                 $state->[$i] = 0;
                 my $j = $i-1;
                 while ($j >= 0) {
