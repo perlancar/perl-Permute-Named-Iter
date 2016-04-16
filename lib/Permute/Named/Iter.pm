@@ -137,4 +137,6 @@ C<@p> will just contain the one permutation:
 
 L<Permute::Named>
 
+L<Set::Product>
+
 =cut
