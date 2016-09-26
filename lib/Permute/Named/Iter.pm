@@ -135,9 +135,9 @@ C<@p> will just contain the one permutation:
 
 =head1 SEE ALSO
 
-L<Permute::Named>, L<PERLANCAR::Permute::Named> and CLI <permute-named>.
+L<Permute::Named>, L<PERLANCAR::Permute::Named> and CLI L<permute-named>.
 
 L<Set::CrossProduct>, L<Set::Product>, et al (see the POD of Set::Product for
-more similar modules) and CLI <cross>.
+more similar modules) and CLI L<cross>.
 
 =cut
